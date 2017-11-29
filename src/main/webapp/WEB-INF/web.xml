@@ -13,4 +13,12 @@
     <servlet-name>Index</servlet-name>
     <url-pattern>*.jsp</url-pattern>
   </servlet-mapping>
+    <servlet>
+        <servlet-name>clock</servlet-name>
+        <jsp-file>/clock.html</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>page</servlet-name>
+        <url-pattern>/clock/launch</url-pattern>
+    </servlet-mapping>
 </web-app>
